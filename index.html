@@ -209,6 +209,9 @@ else
 */
 
 
+
+//14
+/*
 let age = Number(prompt("enter you age"));
 switch(true)
 {
@@ -232,6 +235,31 @@ console.log("adult");
     default:
 console.log("please enter a valid number");
 
+}
+*/
+
+
+//15
+let option1 = confirm("do you want to tea?");
+
+
+let option2 = confirm("do you want to coffee?");
+
+if(option1&&!option2)
+{
+    console.log("i see you want some tea");
+}
+else if(option2&&!option1)
+{
+    console.log("i see you want som coffee");
+}
+else if(option1&&option2)
+{
+    console.log("mann you gready!")
+}
+else
+{
+    console.log("you didn't choose anything .. why are you here??")
 }
 
 
